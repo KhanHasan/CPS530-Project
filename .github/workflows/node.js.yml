@@ -21,7 +21,6 @@ jobs:
         npm install
         npm run build
         cd /var/www/cps530Proj/_work/CPS530-Project/CPS530-Project
-        npm i pm2
         pm2 kill
         pm2 start app.js
         pm2 save
