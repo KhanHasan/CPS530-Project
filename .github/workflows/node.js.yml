@@ -17,11 +17,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run:
-        npm install
         cd 530frontend
         npm install
         npm run build
     - run:
+        npm install
         npm i pm2 
         pm2 kill
         pm2 start app.js
