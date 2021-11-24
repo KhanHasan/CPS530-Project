@@ -20,10 +20,16 @@ jobs:
         cd 530frontend
         npm install
         npm run build
-    - run:
-        npm install
+        cd /var/www/cps530Proj/_work/CPS530-Project/CPS530-Project
         npm i pm2
         pm2 kill
         pm2 start app.js
         pm2 save
         sudo service nginx restart
+    # - run:
+    #     npm install
+    #     npm i pm2
+    #     pm2 kill
+    #     pm2 start app.js
+    #     pm2 save
+    #     sudo service nginx restart
