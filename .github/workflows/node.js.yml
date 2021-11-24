@@ -15,14 +15,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run:
+    - run: |
         npm install
         cd 530frontend
         npm install
         npm run build
-        cd /var/www/cps530Proj/_work/CPS530-Project/CPS530-Project
-        pm2 kill
-        pm2 start app.js
+        cd ..
+        pm2 stop 0
+        pm2 start 0
         pm2 save
         sudo service nginx restart
     # - run:
