@@ -16,7 +16,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: 
+    - run:
+        npm i -g pm2 
         npm install
         cd 530frontend
         npm install
