@@ -1,6 +1,6 @@
 name: Node.js CI
 
-on: 
+on:
   push:
     branches: [ master ]
   pull_request:
@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: self-hosted
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -22,7 +21,7 @@ jobs:
         npm run build
     - run:
         npm install
-        npm i pm2 
+        npm i pm2
         pm2 kill
         pm2 start app.js
         pm2 save
