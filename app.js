@@ -8,6 +8,6 @@ app.get('/names', (req,res) => {
     res.send("Hasan");
 })
 
-app.listen(5000, () => {
+app.listen(8080, () => {
     console.log("Server is running on port 5000");
 })
