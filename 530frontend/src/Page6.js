@@ -7,7 +7,7 @@ const Page6 = () => {
 
     return(
         <div style={mystyle}>
-            <h1>Hello this is Page 6</h1>
+            <h1>Welcome to Page 6</h1>
             <p>
             A credits and references page. Identify the team members (with pictures if possible) 
             and mention the different members' responsibilities. Also mention references here if 

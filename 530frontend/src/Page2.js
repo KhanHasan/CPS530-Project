@@ -7,7 +7,7 @@ const Page2 = () => {
 
     return(
         <div style={mystyle}>
-            <h1>Hello this is Page 2</h1>
+            <h1>Welcome to Page 2</h1>
             <p>
             A tutorial showing in short simple steps how to install the frameworks on your chosen platform. 
             Back-end frameworks cannot be installed on the Ryerson servers, you will have to host on an external 

@@ -8,7 +8,7 @@ const Page5 = () => {
 
     return(
         <div style={mystyle}>
-            <h1>Hello this is Page 5</h1>
+            <h1>Welcome to Page 5</h1>
             <p>
             The conclusion. Rate your experience with the frameworks that you chose. Did they perform 
             to your expectations? Were they difficult to install or configure? Was it easy to create 
