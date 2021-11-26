@@ -1,6 +1,7 @@
 import React from "react";
 // import * as ReactBootStrap from "react-bootstrap";
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 function Navbar1() {
 return(
@@ -11,12 +12,12 @@ return(
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="./Page1">Page 1</Nav.Link>
-        <Nav.Link href="./Page2">Page 2</Nav.Link>
-        <Nav.Link href="./Page3">Page 3</Nav.Link>
-        <Nav.Link href="./Page4">Page 4</Nav.Link>
-        <Nav.Link href="./Page5">Page 5</Nav.Link>
-        <Nav.Link href="./Page6">Page 6</Nav.Link>
+        <Link to="./Page1">Page 1</Link>
+        <Link to="./Page2">Page 2</Link>
+        <Link to="./Page3">Page 3</Link>
+        {/* <Nav.Link to="./Page4">Page 4</Nav.Link>
+        <Nav.Link to="./Page5">Page 5</Nav.Link>
+        <Nav.Link to="./Page6">Page 6</Nav.Link>  */}
       </Nav>
     </Navbar.Collapse>
   </Container>
