@@ -8,21 +8,14 @@ const Page4 = () => {
         width: "100%"
       };
       const imgstyle = {
-        width: "50%",
-        float: 'right'
+        width: "80%"
+
       };
       const backGround = {
         backgroundColor: "#ADD8E6",
         textAlign: "left"
-
         };
 
-        const left = {
-            float: 'left'
-        };
-        const right = {
-            float: 'right'
-        };
 
 
 
@@ -44,8 +37,7 @@ const Page4 = () => {
             <br /> 
 
 
-            <div>
-            <div style={left}>
+         
             <h3>Summary</h3>
             <p>
             The Toronto Maple Leafs are a professional ice hockey team based in Toronto. 
@@ -54,13 +46,11 @@ const Page4 = () => {
             and Entertainment, a company that owns several professional sports teams in
             the city.
             </p>
-            </div>
-            <div>
-            <img style={imgstyle}
+          
+        <center>  
+        <img style={imgstyle}
         src="https://www.scotiabankarena.com/assets/img/LFS_SBA_WEB_880x500-de5e68d0a1.png" />
-            </div>
-            </div>
-
+        </center>
 
 
             <br />
@@ -72,23 +62,26 @@ const Page4 = () => {
            
 
             <br />
+            <center> 
             <img style={imgstyle}
         src="https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTc5NjIyMTI1MzYxOTY0MTY5/usatsi_14176253_168390270_lowres-1.jpg" />
-           
+           </center> 
             <h3>Stadium</h3>
             <p>
                 Scotiabank Arena
             </p>
 
 
-           
+            <center> 
+            <img style={imgstyle}
+        src="https://mapleleafshotstove.com/wp-content/uploads/2019/12/toronto-maple-leafs-john-tavares-william-nylande.jpg" />
+           </center> 
             <br />
             <h3>Team</h3>
             
             <h6>Forwards</h6>
-            <img style={imgstyle}
-        src="https://mapleleafshotstove.com/wp-content/uploads/2019/12/toronto-maple-leafs-john-tavares-william-nylande.jpg" />
-           
+            
+
             <p>Bunting ----- Matthews ----- Marner</p>
             <p>Kerfoot -----  Tavares ----- Nylander</p>
             <p>Ritchie -----   Kampf  ----- Kase</p>
@@ -98,8 +91,6 @@ const Page4 = () => {
 
            
             <h6>Defense</h6>
-            <img style={imgstyle}
-        src="https://www.teahub.io/photos/full/355-3554501_toronto-maple-leafs-2019.jpg" />
            
             <p>Rielly ----- Brodie</p>
             <p>Muzzin -----  Holl</p>
@@ -114,7 +105,10 @@ const Page4 = () => {
             
             <h6>Coach: Shelon Keefe</h6>
             <h6>GM: Kyle Dubas</h6>
-
+            <center> 
+            <img style={imgstyle}
+        src="https://www.teahub.io/photos/full/355-3554501_toronto-maple-leafs-2019.jpg" />
+           </center> 
 
         </div>
         </div>
