@@ -15,9 +15,9 @@ return(
         <Link to="./Page1">Page 1</Link>
         <Link to="./Page2">Page 2</Link>
         <Link to="./Page3">Page 3</Link>
-        {/* <Nav.Link to="./Page4">Page 4</Nav.Link>
-        <Nav.Link to="./Page5">Page 5</Nav.Link>
-        <Nav.Link to="./Page6">Page 6</Nav.Link>  */}
+        <Link to="./Page4">Page 4</Link>
+        <Link to="./Page5">Page 5</Link>
+        <Link to="./Page6">Page 6</Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
