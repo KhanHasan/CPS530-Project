@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.titleStyle{
+  font-family: Permanent Marker;
+  position: absolute;
+  left:50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5em;
+  z-index: 1;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

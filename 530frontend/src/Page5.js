@@ -19,7 +19,18 @@ const Page5 = () => {
 
             <div>
                 <h2>My Experience</h2>
-                <p>Answer in paragraph form here</p>
+                <p>The frameworks I chose both weren't too bad. They were quite
+                    straightforward to use however they were a little confusing intially
+                    especially the JSX in react however I was eventually able to figure 
+                    it out. They both did perform to my expectations as I was able to make
+                    a fairly nice web page using them. Installation and configuration was 
+                    easy for frameworks but setting up the server was confusing. Creating 
+                    pages with it was pretty easy. The learning curve initially was quite
+                    steep however once you get the understanding of it and how it works,
+                    its pretty easy. I wouldn't have done anything differently, I'm glad I 
+                    learned this and was able to do it myself. I do not regret my choices
+                    of frameworks.
+                </p>
             </div>
         </div>
     );
